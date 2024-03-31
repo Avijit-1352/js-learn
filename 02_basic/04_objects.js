@@ -62,7 +62,29 @@ const course={
     courseInstructor:"fvu"
 }
 
+
+//******de-structure of Object******
+
 // course.courseInstructor
 const {courseInstructor:instructor}=course
 // console.log(courseInstructor);
 console.log(instructor);
+
+
+// ***** JSON- javascript object Notetion ***
+/* it is also  aplicable in API , API goes to JSON formet */
+// JSON struc - {"string":"string"}
+
+// {
+//     "name":"yithes",
+//     "coursename":"js"
+//     "price":"free"
+// }
+ 
+
+//Array de-structrue
+// [
+//     {},
+//     {},
+//     {}
+// ]
