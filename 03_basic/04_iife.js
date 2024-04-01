@@ -1,5 +1,6 @@
 // Immediately Invoked Function Expressions (IIFE)
-
+// Why used iife?
+/* => bcoz  protect with gobal value polution , means no effect gobal context */
 // named IIFE
 (function chai(params) {
     console.log(`DB Connected`);
