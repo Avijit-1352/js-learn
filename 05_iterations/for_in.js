@@ -1,5 +1,5 @@
 //**FOR_IN**/
-//ony of pass object in for_in
+// passing through object in for_in
 
 const myObject={
     js:"javascript",
