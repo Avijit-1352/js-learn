@@ -69,27 +69,11 @@ title.innerText
 
 
 // document.querySelectorAll('li')
-NodeList(3) [li, li, li]
-// 0
-// : 
-// li
-// 1
-// : 
-// li
-// 2
-// : 
-// li
-// length
-// : 
-// 3
+// NodeList(3) [li, li, li]
 // [[Prototype]]
-// : 
 // NodeList
-// entries
-// : 
-// ƒ entries()
-// forEach
-// : 
+// entries// : // ƒ entries()
+// forEach// : 
 // ƒ forEach()
 // item
 // : 
@@ -174,3 +158,16 @@ NodeList(3) [li, li, li]
 // myConvertArray.forEach(function (li) {
 //     li.style.color='orange'  
 //   })
+
+
+
+// const allH2=document.querySelectorAll('h2')
+// allH2
+// NodeList(15) [h2.vector-pinnable-header-label, h2, h2, h2, h2, h2, h2, h2, h2, h2, h2, h2, h2, h2, h2]
+// const myH2 = document.querySelectorAll('.mw-headline')
+// myH2.forEach(function (h) {
+//     h.style.color='black'
+//     h.style.backgroundColor='green';
+//     h.style.padding='10px'
+//     h.innerText='jitavi'
+// })
