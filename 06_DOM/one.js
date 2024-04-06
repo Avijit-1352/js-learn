@@ -14,31 +14,31 @@
 
 // document.getElementById('title')
 
-document.getElementById('title').id
+// document.getElementById('title').id
 
-document.getElementById('title').class
+// document.getElementById('title').class
 
-document.getElementById('title').className
+// document.getElementById('title').className
 
-document.getElementById('title').getAtribute
+// document.getElementById('title').getAtribute
 
-document.getElementById('title').getAttribute('id')
+// document.getElementById('title').getAttribute('id')
 
-document.getElementById('title').getAttribute('class')
+// document.getElementById('title').getAttribute('class')
 
-document.getElementById('title').setAttribute('class','test')
+// document.getElementById('title').setAttribute('class','test')
 
-const title=document.getElementById('title')
+// const title=document.getElementById('title')
 
-title.innerHTML
-'Dom learing on chai aur codes<span style="display:none"> teast text</span>'
+// title.innerHTML
+// 'Dom learing on chai aur codes<span style="display:none"> teast text</span>'
 
-title.textContent
-'Dom learing on chai aur codes teast text'
+// title.textContent
+// 'Dom learing on chai aur codes teast text'
 
 
-title.innerText
-'Dom learing on chai aur codes'
+// title.innerText
+// 'Dom learing on chai aur codes'
 
 //css seletor
 // document.querySelector('h2')
