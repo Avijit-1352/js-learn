@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121;color:#fff;">
+    <div class="parent">
+        <!-- this is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">tueday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    const parentVar = document.querySelector('.parent')
+    // console.log(parentVar);
+    // console.log(parentVar.children);
+    // console.log(parentVar.children[1].innerHTML)
+    for (let i = 0; i < parentVar.children.length; i++) {
+        console.log(parentVar.children[i].innerHTML);
+        
+    }
+
+    //target parent then got children
+
+    // parentVar.children[1].style.color="orange"
+    // console.log(parentVar.firstElementChild);
+    // console.log(parentVar.lastElementChild);
+  
+
+    //target child then got parent
+
+    // const childrenVar = document.querySelector('.day')
+    // console.log(childrenVar.parentElement);
+    // console.log(childrenVar.nextElementSibling);
+
+    //color set
+    const colorArr=["green","blue","yellow","orange"]
+    const parentColor= document.querySelector('.parent')
+    // console.log(parentColor.children);
+    let j=0;
+    for (let i = 0; i < parentColor.children.length; i++) {
+            parentColor.children[i].style.color=colorArr[j];
+            j++;
+        
+    }
+    
+</script>
+</html>
